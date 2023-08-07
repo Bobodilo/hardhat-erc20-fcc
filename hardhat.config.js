@@ -70,13 +70,13 @@ module.exports = {
       chainId: 137,
     },
   },
-  etherscan: {
-    // npx hardhat verify --network <NETWORK> <CONTRACT_ADDRESS> <CONSTRUCTOR_PARAMETERS>
-    apiKey: {
-      sepolia: ETHERSCAN_API_KEY,
-      polygon: POLYGONSCAN_API_KEY,
-    },
-  },
+  // etherscan: {
+  //   // npx hardhat verify --network <NETWORK> <CONTRACT_ADDRESS> <CONSTRUCTOR_PARAMETERS>
+  //   apiKey: {
+  //     sepolia: ETHERSCAN_API_KEY,
+  //     polygon: POLYGONSCAN_API_KEY,
+  //   },
+  // },
   gasReporter: {
     enabled: REPORT_GAS,
     currency: "USD",

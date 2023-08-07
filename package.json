@@ -20,7 +20,6 @@
     "ethers": "^5.5.1",
     "hardhat": "^2.6.7",
     "hardhat-contract-sizer": "^2.4.0",
-    "hardhat-deploy": "^0.9.29",
     "hardhat-gas-reporter": "^1.0.7",
     "prettier": "^2.4.1",
     "prettier-plugin-solidity": "^1.0.0-beta.19",
@@ -30,7 +29,8 @@
   "dependencies": {
     "@openzeppelin/contracts": "^4.5.0",
     "babel-eslint": "^10.1.0",
-    "dotenv": "^10.0.0"
+    "dotenv": "^10.0.0",
+    "hardhat-deploy": "^0.11.34"
   },
   "mocha": {
     "timeout": 10000000
